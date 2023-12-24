@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myFavs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>My favorites and not so favorites</h1>
+    <table>
+        <th>Favorites</th>
+        <th>Non-Favorites</th>
+        <tr>
+            <td>
+                <h2>Learning</h2>
+                <img src="data:image/png;base64,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" alt="notepad with lightbulb and pencil">
+                <ul>
+                    <li>Life doesn't get boring when learning something new.</li>
+                    <li>You can share with others what you learned.</li>
+                    <li>Meet cool people on you learning journey.</li>
+                </ul>
+            </td>
+            <td>
+                <h2>Forgetting</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0I-03Pyj83r4_tcbtXqDvbxFU4c598yFjWQ&usqp=CAU" alt="baby shark doodoo doo doo">
+                <ul>
+                    <li>When you dont remember about that one... nevermind.</li>
+                    <li>What was i talking about?</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Comfy Sweats</h2>
+                <img src="https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwa1dd89a7/images/hi-res/26062_NUVG.jpg?sw=256&sh=256&sfrm=png&q=95&bgcolor=f5f5f5" alt="patagonia sweat pants">
+                <ul>
+                    <li>Can look good with the right shoes and shirt.</li>
+                    <li>Good for working out.</li>
+                    <li>Different kinds of sweats.</li>
+                </ul>
+            </td>
+            <td>
+                <h2>Dress Shoes</h2>
+                <img src="https://public.blenderkit.com/thumbnails/assets/301e3ae4201a4e02b4dca0e08883e04b/files/thumbnail_afd29a5b-a51a-479c-b453-5b985d42452e.jpg.256x256_q85_crop-%2C.jpg" alt="dress shoe">
+                <ul>
+                    <li>Super uncomfortable.</li>
+                    <li>No grip on soles.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Christmas</h2>
+                <img src="https://www.omnycontent.com/d/clips/134e18ca-7af8-403f-a7eb-ad7f01861f48/2c2c1b6a-5765-4ed1-925a-ade801138598/ad6ae7ee-7e3b-42ae-b9cf-b0d10110ddfc/image.jpg?t=1701966890&size=small" alt="Star of bethlehem">
+                <ul>
+                    <li>An important date for many.</li>
+                    <li>Open gifts.</li>
+                    <li>Tamales and Posole.</li>
+                </ul>
+            </td>
+            <td>
+                <h2>Windy days</h2>
+                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/windy-8523690-6928816.png?f=webp&w=256" alt="windy">
+                <ul>
+                    <li>Dry everything.</li>
+                    <li>Hat flys away.</li>
+                    <li>Dust in eyes.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Rally</h2>
+                <img src="https://cdn.openart.ai/published/JzH42qyp4CWVop9owsow/TIp4tr2I_ytGA_256.webp" alt="white rally car">
+                <ul>
+                    <li>Adrenaline enducing.</li>
+                    <li>Lots of skill and communication between navigator and driver.</li>
+                    <li>Nice cars and builds.</li>
+                </ul>
+            </td>
+            <td>
+                <h2>Prius drivers</h2>
+                <img src="https://s3-ap-southeast-1.amazonaws.com/caarlyd/img/826137-small.JPG" alt="prius">
+                <ul>
+                    <li>Not all prius drivers are bad.</li>
+                    <li>We have all experienced the bad ones.</li>
+                    <li>Nuff said.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Mushrooms</h2>
+                <img src="https://images.vexels.com/media/users/3/272834/isolated/lists/0a11acd76939aa30665c5fba5441da87-cottagecore-mushrooms-nature.png" alt="mushrooms">
+                <ul>
+                    <li>Lots of interesting things with mushrooms.</li>
+                    <li>Unlimited talk and text for the trees.</li>
+                    <li>Medicinal and Nutritional values.</li>
+                </ul>
+            </td>
+            <td>
+                <h2>Bad hair days</h2>
+                <img src="https://images.fallout.wiki/2/20/Babylon_playericon_vaultboy_badhair_female.webp" alt="bad hair">
+                <ul>
+                    <li>When your hair won't go how you want it to.</li>
+                    <li>No amount of gel will fix it</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
